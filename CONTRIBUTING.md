@@ -48,8 +48,8 @@ Please be respectful and constructive in all interactions. We welcome contributo
 ### Installation
 
 ```bash
-git clone https://github.com/zendevio/bmpm.git
-cd bmpm
+git clone https://github.com/zendevio/bmpm-php.git
+cd bmpm-php
 composer install
 ```
 
@@ -230,8 +230,8 @@ If contributing changes to phonetic rules:
 
 ## Questions?
 
-- Open a [Discussion](https://github.com/zendevio/bmpm/discussions)
-- Check existing [Issues](https://github.com/zendevio/bmpm/issues)
+- Open a [Discussion](https://github.com/zendevio/bmpm-php/discussions)
+- Check existing [Issues](https://github.com/zendevio/bmpm-php/issues)
 
 ## License
 

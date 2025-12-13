@@ -69,5 +69,5 @@ Original algorithm documentation: https://stevemorse.org/phoneticinfo.htm
 
 This PHP implementation is a modern rewrite based on the BMPM 3.15 PHP source code.
 
-[Unreleased]: https://github.com/zendevio/bmpm/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/zendevio/bmpm/releases/tag/v1.0.0
+[Unreleased]: https://github.com/zendevio/bmpm-php/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/zendevio/bmpm-php/releases/tag/v1.0.0

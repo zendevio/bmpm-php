@@ -22,7 +22,7 @@ A modern PHP 8.4+ implementation of the **Beider-Morse Phonetic Matching (BMPM)*
 ## Installation
 
 ```bash
-composer require zendevio/bmpm
+composer require zendevio/bmpm-php
 ```
 
 ### Requirements

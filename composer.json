@@ -1,5 +1,5 @@
 {
-  "name": "zendevio/bmpm",
+  "name": "zendevio/bmpm-php",
   "description": "Modern PHP 8.4+ implementation of the Beider-Morse Phonetic Matching (BMPM) algorithm for multilingual name matching",
   "type": "library",
   "license": "GPL-3.0-or-later",
@@ -30,10 +30,10 @@
       "role": "PHP 8.4+ Implementation"
     }
   ],
-  "homepage": "https://github.com/zendevio/bmpm",
+  "homepage": "https://github.com/zendevio/bmpm-php",
   "support": {
-    "issues": "https://github.com/zendevio/bmpm/issues",
-    "source": "https://github.com/zendevio/bmpm"
+    "issues": "https://github.com/zendevio/bmpm-php/issues",
+    "source": "https://github.com/zendevio/bmpm-php"
   },
   "require": {
     "php": "^8.4",
