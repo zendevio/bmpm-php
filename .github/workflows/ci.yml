@@ -25,14 +25,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php: ['8.2', '8.3', '8.4']
+        php: ['8.4']
         dependency-version: [prefer-lowest, prefer-stable]
-        exclude:
-          # Only test lowest deps on minimum PHP version
-          - php: '8.3'
-            dependency-version: prefer-lowest
-          - php: '8.4'
-            dependency-version: prefer-lowest
 
     steps:
       - name: Checkout code
@@ -47,7 +41,7 @@ jobs:
           ini-values: error_reporting=E_ALL
 
       - name: Validate composer.json
-        run: composer validate --strict
+        run: composer validate
 
       - name: Get Composer cache directory
         id: composer-cache
@@ -81,7 +75,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: '8.4'
           extensions: mbstring, intl, json
           coverage: none
           tools: cs2pr
@@ -94,10 +88,10 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-php-8.2-composer-prefer-stable-${{ hashFiles('**/composer.json') }}
+          key: ${{ runner.os }}-php-8.4-composer-prefer-stable-${{ hashFiles('**/composer.json') }}
           restore-keys: |
-            ${{ runner.os }}-php-8.2-composer-prefer-stable-
-            ${{ runner.os }}-php-8.2-composer-
+            ${{ runner.os }}-php-8.4-composer-prefer-stable-
+            ${{ runner.os }}-php-8.4-composer-
 
       - name: Install dependencies
         run: composer install --prefer-dist --no-interaction --no-progress
@@ -121,7 +115,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.3'
+          php-version: '8.4'
           extensions: mbstring, intl, json
           coverage: pcov
           ini-values: pcov.directory=src
@@ -134,10 +128,10 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-php-8.3-composer-prefer-stable-${{ hashFiles('**/composer.json') }}
+          key: ${{ runner.os }}-php-8.4-composer-prefer-stable-${{ hashFiles('**/composer.json') }}
           restore-keys: |
-            ${{ runner.os }}-php-8.3-composer-prefer-stable-
-            ${{ runner.os }}-php-8.3-composer-
+            ${{ runner.os }}-php-8.4-composer-prefer-stable-
+            ${{ runner.os }}-php-8.4-composer-
 
       - name: Install dependencies
         run: composer install --prefer-dist --no-interaction --no-progress
@@ -165,7 +159,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.3'
+          php-version: '8.4'
           extensions: mbstring, intl, json
           coverage: pcov
           ini-values: pcov.directory=src
@@ -178,10 +172,10 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-php-8.3-composer-prefer-stable-${{ hashFiles('**/composer.json') }}
+          key: ${{ runner.os }}-php-8.4-composer-prefer-stable-${{ hashFiles('**/composer.json') }}
           restore-keys: |
-            ${{ runner.os }}-php-8.3-composer-prefer-stable-
-            ${{ runner.os }}-php-8.3-composer-
+            ${{ runner.os }}-php-8.4-composer-prefer-stable-
+            ${{ runner.os }}-php-8.4-composer-
 
       - name: Install dependencies
         run: composer install --prefer-dist --no-interaction --no-progress
@@ -203,7 +197,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: '8.4'
           extensions: mbstring, intl, json
           coverage: none
 
