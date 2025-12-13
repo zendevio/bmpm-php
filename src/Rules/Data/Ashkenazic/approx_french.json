@@ -1,0 +1,38 @@
+{
+    "name": "Approx french",
+    "description": "Converted from approxfrench.php",
+    "version": "3.15",
+    "source": "approxfrench.php",
+    "rules": [
+        {
+            "pattern": "au",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|a|u)"
+        },
+        {
+            "pattern": "ou",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|o|u)"
+        },
+        {
+            "pattern": "ai",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|a|i)"
+        },
+        {
+            "pattern": "oi",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|o|i)"
+        },
+        {
+            "pattern": "ui",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|u|i)"
+        }
+    ]
+}

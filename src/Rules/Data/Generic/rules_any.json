@@ -1,0 +1,1760 @@
+{
+    "name": "Rules any",
+    "description": "Converted from rulesany.php",
+    "version": "3.15",
+    "source": "rulesany.php",
+    "rules": [
+        {
+            "pattern": "yna",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(in[$russian]|ina)"
+        },
+        {
+            "pattern": "ina",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(in[$russian]|ina)"
+        },
+        {
+            "pattern": "liova",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(lova|lof[$russian]|lef[$russian])"
+        },
+        {
+            "pattern": "lova",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(lova|lof[$russian]|lef[$russian]|l[$czech]|el[$czech])"
+        },
+        {
+            "pattern": "kova",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(kova|kof[$russian]|k[$czech]|ek[$czech])"
+        },
+        {
+            "pattern": "ova",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(ova|of[$russian]|[$czech])"
+        },
+        {
+            "pattern": "ová",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(ova|[$czech])"
+        },
+        {
+            "pattern": "eva",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(eva|ef[$russian])"
+        },
+        {
+            "pattern": "aia",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(aja|i[$russian])"
+        },
+        {
+            "pattern": "aja",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(aja|i[$russian])"
+        },
+        {
+            "pattern": "aya",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(aja|i[$russian])"
+        },
+        {
+            "pattern": "lowa",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(lova|lof[$polish]|l[$polish]|el[$polish])"
+        },
+        {
+            "pattern": "kowa",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(kova|kof[$polish]|k[$polish]|ek[$polish])"
+        },
+        {
+            "pattern": "owa",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(ova|of[$polish]|)"
+        },
+        {
+            "pattern": "lowna",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(lovna|levna|l[$polish]|el[$polish])"
+        },
+        {
+            "pattern": "kowna",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(kovna|k[$polish]|ek[$polish])"
+        },
+        {
+            "pattern": "owna",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(ovna|[$polish])"
+        },
+        {
+            "pattern": "lówna",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(l|el)"
+        },
+        {
+            "pattern": "kówna",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(k|ek)"
+        },
+        {
+            "pattern": "ówna",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": ""
+        },
+        {
+            "pattern": "á",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(a|i[$czech])"
+        },
+        {
+            "pattern": "a",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(a|i[\".($polish+$czech).\"])"
+        },
+        {
+            "pattern": "pf",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(pf|p|f)"
+        },
+        {
+            "pattern": "que",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(k[$french]|ke|kve)"
+        },
+        {
+            "pattern": "qu",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(kv|k)"
+        },
+        {
+            "pattern": "m",
+            "leftContext": "",
+            "rightContext": "[bfpv]",
+            "phonetic": "(m|n)"
+        },
+        {
+            "pattern": "m",
+            "leftContext": "[aeiouy]",
+            "rightContext": "[aeiouy]",
+            "phonetic": "m"
+        },
+        {
+            "pattern": "m",
+            "leftContext": "[aeiouy]",
+            "rightContext": "",
+            "phonetic": "(m|n[\".($french+$portuguese).\"])"
+        },
+        {
+            "pattern": "ly",
+            "leftContext": "",
+            "rightContext": "[au]",
+            "phonetic": "(l|lj)"
+        },
+        {
+            "pattern": "li",
+            "leftContext": "",
+            "rightContext": "[au]",
+            "phonetic": "(l|lj)"
+        },
+        {
+            "pattern": "lio",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(lo|le[$russian])"
+        },
+        {
+            "pattern": "lyo",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(lo|le[$russian])"
+        },
+        {
+            "pattern": "ll",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(l|J[$spanish])"
+        },
+        {
+            "pattern": "lt",
+            "leftContext": "u",
+            "rightContext": "$",
+            "phonetic": "(lt|[$french])"
+        },
+        {
+            "pattern": "v",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "(v|f[$german]|b[$spanish])"
+        },
+        {
+            "pattern": "ex",
+            "leftContext": "",
+            "rightContext": "[aáuiíoóeéêy]",
+            "phonetic": "(ez[$portuguese]|eS[$portuguese]|eks|egz)"
+        },
+        {
+            "pattern": "ex",
+            "leftContext": "",
+            "rightContext": "[cs]",
+            "phonetic": "(e[$portuguese]|ek)"
+        },
+        {
+            "pattern": "x",
+            "leftContext": "u",
+            "rightContext": "$",
+            "phonetic": "(ks|[$french])"
+        },
+        {
+            "pattern": "ck",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(k|tsk[\".($polish+$czech).\"])"
+        },
+        {
+            "pattern": "cz",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(tS|tsz[$czech])"
+        },
+        {
+            "pattern": "rh",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "r"
+        },
+        {
+            "pattern": "dh",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "d"
+        },
+        {
+            "pattern": "bh",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "b"
+        },
+        {
+            "pattern": "ph",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(ph|f)"
+        },
+        {
+            "pattern": "kh",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(x[\".($russian+$english).\"]|kh)"
+        },
+        {
+            "pattern": "lh",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(lh|l[$portuguese])"
+        },
+        {
+            "pattern": "nh",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(nh|nj[$portuguese])"
+        },
+        {
+            "pattern": "ssch",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "chsch",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "xS"
+        },
+        {
+            "pattern": "tsch",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "tS"
+        },
+        {
+            "pattern": "desch",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "deS"
+        },
+        {
+            "pattern": "desh",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "(dES|de[$french])"
+        },
+        {
+            "pattern": "des",
+            "leftContext": "^",
+            "rightContext": "[^aeiouy]",
+            "phonetic": "(dEs|de[$french])"
+        },
+        {
+            "pattern": "sch",
+            "leftContext": "[aeiouy]",
+            "rightContext": "[ei]",
+            "phonetic": "(S|StS[$russian]|sk[\".($romanian+$italian).\"])"
+        },
+        {
+            "pattern": "sch",
+            "leftContext": "[aeiouy]",
+            "rightContext": "",
+            "phonetic": "(S|StS[$russian])"
+        },
+        {
+            "pattern": "sch",
+            "leftContext": "",
+            "rightContext": "[ei]",
+            "phonetic": "(sk[\".($romanian+$italian).\"]|S|StS[$russian])"
+        },
+        {
+            "pattern": "sch",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(S|StS[$russian])"
+        },
+        {
+            "pattern": "ssh",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "sh",
+            "leftContext": "",
+            "rightContext": "[äöü]",
+            "phonetic": "sh"
+        },
+        {
+            "pattern": "sh",
+            "leftContext": "",
+            "rightContext": "[aeiou]",
+            "phonetic": "(S[\".($russian+$english).\"]|sh)"
+        },
+        {
+            "pattern": "sh",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "zh",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Z[\".($english+$russian).\"]|zh|tsh[$german])"
+        },
+        {
+            "pattern": "chs",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(ks[$german]|xs|tSs[\".($russian+$english).\"])"
+        },
+        {
+            "pattern": "ch",
+            "leftContext": "",
+            "rightContext": "[ei]",
+            "phonetic": "(x|tS[\".($spanish+$english+$russian).\"]|k[\".($romanian+$italian).\"]|S[\".($portuguese+$french).\"])"
+        },
+        {
+            "pattern": "ch",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(x|tS[\".($spanish+$english+$russian).\"]|S[\".($portuguese+$french).\"])"
+        },
+        {
+            "pattern": "th",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "t"
+        },
+        {
+            "pattern": "th",
+            "leftContext": "",
+            "rightContext": "[äöüaeiou]",
+            "phonetic": "(t[\".($english+$german+$greeklatin).\"]|th)"
+        },
+        {
+            "pattern": "th",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "t"
+        },
+        {
+            "pattern": "gh",
+            "leftContext": "",
+            "rightContext": "[ei]",
+            "phonetic": "(g[\".($romanian+$italian+$greeklatin).\"]|gh)"
+        },
+        {
+            "pattern": "ouh",
+            "leftContext": "",
+            "rightContext": "[aioe]",
+            "phonetic": "(v[$french]|uh)"
+        },
+        {
+            "pattern": "uh",
+            "leftContext": "",
+            "rightContext": "[aioe]",
+            "phonetic": "(v|uh)"
+        },
+        {
+            "pattern": "h",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": ""
+        },
+        {
+            "pattern": "h",
+            "leftContext": "[aeiouyäöü]",
+            "rightContext": "",
+            "phonetic": ""
+        },
+        {
+            "pattern": "h",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "(h|x[\".($romanian+$greeklatin).\"]|H[\".($english+$romanian+$polish+$french+$portuguese+$italian+$spanish).\"])"
+        },
+        {
+            "pattern": "cia",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(tSa[$polish]|tsa)"
+        },
+        {
+            "pattern": "cią",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(tSom|tsom)"
+        },
+        {
+            "pattern": "cią",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(tSon[$polish]|tson)"
+        },
+        {
+            "pattern": "cię",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(tSem[$polish]|tsem)"
+        },
+        {
+            "pattern": "cię",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(tSen[$polish]|tsen)"
+        },
+        {
+            "pattern": "cie",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(tSe[$polish]|tse)"
+        },
+        {
+            "pattern": "cio",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(tSo[$polish]|tso)"
+        },
+        {
+            "pattern": "ciu",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(tSu[$polish]|tsu)"
+        },
+        {
+            "pattern": "sci",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(Si[$italian]|stsi[\".($polish+$czech).\"]|dZi[$turkish]|tSi[\".($polish+$romanian).\"]|tS[$romanian]|si)"
+        },
+        {
+            "pattern": "sc",
+            "leftContext": "",
+            "rightContext": "[ei]",
+            "phonetic": "(S[$italian]|sts[\".($polish+$czech).\"]|dZ[$turkish]|tS[\".($polish+$romanian).\"]|s)"
+        },
+        {
+            "pattern": "ci",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(tsi[\".($polish+$czech).\"]|dZi[$turkish]|tSi[\".($polish+$romanian).\"]|tS[$romanian]|si)"
+        },
+        {
+            "pattern": "cy",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(si|tsi[$polish])"
+        },
+        {
+            "pattern": "c",
+            "leftContext": "",
+            "rightContext": "[ei]",
+            "phonetic": "(ts[\".($polish+$czech).\"]|dZ[$turkish]|tS[\".($polish+$romanian).\"]|k[$greeklatin]|s)"
+        },
+        {
+            "pattern": "sç",
+            "leftContext": "",
+            "rightContext": "[aeiou]",
+            "phonetic": "(s|stS[$turkish])"
+        },
+        {
+            "pattern": "ssz",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "sz",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "(S|s[$hungarian])"
+        },
+        {
+            "pattern": "sz",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(S|s[$hungarian])"
+        },
+        {
+            "pattern": "sz",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(S|s[$hungarian]|sts[$german])"
+        },
+        {
+            "pattern": "ssp",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Sp[$german]|sp)"
+        },
+        {
+            "pattern": "sp",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Sp[$german]|sp)"
+        },
+        {
+            "pattern": "sst",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(St[$german]|st)"
+        },
+        {
+            "pattern": "st",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(St[$german]|st)"
+        },
+        {
+            "pattern": "ss",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "sj",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "sj",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "sj",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(sj|S[$dutch]|sx[$spanish]|sZ[\".($romanian+$turkish).\"])"
+        },
+        {
+            "pattern": "sia",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Sa[$polish]|sa[$polish]|sja)"
+        },
+        {
+            "pattern": "sią",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(Som[$polish]|som)"
+        },
+        {
+            "pattern": "sią",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Son[$polish]|son)"
+        },
+        {
+            "pattern": "się",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(Sem[$polish]|sem)"
+        },
+        {
+            "pattern": "się",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Sen[$polish]|sen)"
+        },
+        {
+            "pattern": "sie",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(se|sje|Se[$polish]|zi[$german])"
+        },
+        {
+            "pattern": "sio",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(So[$polish]|so)"
+        },
+        {
+            "pattern": "siu",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Su[$polish]|sju)"
+        },
+        {
+            "pattern": "si",
+            "leftContext": "[äöëaáuiíoóeéêy]",
+            "rightContext": "",
+            "phonetic": "(Si[$polish]|si|zi[\".($portuguese+$french+$italian+$german).\"])"
+        },
+        {
+            "pattern": "si",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Si[$polish]|si|zi[$german])"
+        },
+        {
+            "pattern": "s",
+            "leftContext": "[aáuiíoóeéêy]",
+            "rightContext": "[aáuíoóeéêy]",
+            "phonetic": "(s|z[\".($portuguese+$french+$italian+$german).\"])"
+        },
+        {
+            "pattern": "s",
+            "leftContext": "",
+            "rightContext": "[aeouäöë]",
+            "phonetic": "(s|z[$german])"
+        },
+        {
+            "pattern": "s",
+            "leftContext": "[aeiouy]",
+            "rightContext": "[dglmnrv]",
+            "phonetic": "(s|z|Z[$portuguese]|[$french])"
+        },
+        {
+            "pattern": "s",
+            "leftContext": "",
+            "rightContext": "[dglmnrv]",
+            "phonetic": "(s|z|Z[$portuguese])"
+        },
+        {
+            "pattern": "gue",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(k[$french]|gve)"
+        },
+        {
+            "pattern": "gu",
+            "leftContext": "",
+            "rightContext": "[ei]",
+            "phonetic": "(g[$french]|gv[\".($portuguese+$spanish).\"])"
+        },
+        {
+            "pattern": "gu",
+            "leftContext": "",
+            "rightContext": "[ao]",
+            "phonetic": "gv"
+        },
+        {
+            "pattern": "guy",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "gi"
+        },
+        {
+            "pattern": "gli",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(glI|l[$italian])"
+        },
+        {
+            "pattern": "gni",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(gnI|ni[\".($italian+$french).\"])"
+        },
+        {
+            "pattern": "gn",
+            "leftContext": "",
+            "rightContext": "[aeou]",
+            "phonetic": "(n[\".($italian+$french).\"]|nj[\".($italian+$french).\"]|gn)"
+        },
+        {
+            "pattern": "ggie",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(je[$greeklatin]|dZe)"
+        },
+        {
+            "pattern": "ggi",
+            "leftContext": "",
+            "rightContext": "[aou]",
+            "phonetic": "(j[$greeklatin]|dZ)"
+        },
+        {
+            "pattern": "ggi",
+            "leftContext": "[yaeiou]",
+            "rightContext": "[aou]",
+            "phonetic": "(gI|dZ[$italian]|j[$greeklatin])"
+        },
+        {
+            "pattern": "gge",
+            "leftContext": "[yaeiou]",
+            "rightContext": "",
+            "phonetic": "(gE|xe[$spanish]|gZe[\".($portuguese+$french).\"]|dZe[\".($english+$romanian+$italian+$spanish).\"]|je[$greeklatin])"
+        },
+        {
+            "pattern": "ggi",
+            "leftContext": "[yaeiou]",
+            "rightContext": "",
+            "phonetic": "(gI|xi[$spanish]|gZi[\".($portuguese+$french).\"]|dZi[\".($english+$romanian+$italian+$spanish).\"]|i[$greeklatin])"
+        },
+        {
+            "pattern": "ggi",
+            "leftContext": "",
+            "rightContext": "[aou]",
+            "phonetic": "(gI|dZ[$italian]|j[$greeklatin])"
+        },
+        {
+            "pattern": "gie",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(ge|gi[$german]|ji[$french]|dZe[$italian])"
+        },
+        {
+            "pattern": "gie",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(ge|gi[$german]|dZe[$italian]|je[$greeklatin])"
+        },
+        {
+            "pattern": "gi",
+            "leftContext": "",
+            "rightContext": "[aou]",
+            "phonetic": "(i[$greeklatin]|dZ)"
+        },
+        {
+            "pattern": "ge",
+            "leftContext": "[yaeiou]",
+            "rightContext": "",
+            "phonetic": "(gE|xe[$spanish]|Ze[\".($portuguese+$french).\"]|dZe[\".($english+$romanian+$italian+$spanish).\"])"
+        },
+        {
+            "pattern": "gi",
+            "leftContext": "[yaeiou]",
+            "rightContext": "",
+            "phonetic": "(gI|xi[$spanish]|Zi[\".($portuguese+$french).\"]|dZi[\".($english+$romanian+$italian+$spanish).\"])"
+        },
+        {
+            "pattern": "ge",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(gE|xe[$spanish]|hE[$russian]|je[$greeklatin]|Ze[\".($portuguese+$french).\"]|dZe[\".($english+$romanian+$italian+$spanish).\"])"
+        },
+        {
+            "pattern": "gi",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(gI|xi[$spanish]|hI[$russian]|i[$greeklatin]|Zi[\".($portuguese+$french).\"]|dZi[\".($english+$romanian+$italian+$spanish).\"])"
+        },
+        {
+            "pattern": "gy",
+            "leftContext": "",
+            "rightContext": "[aeouáéóúüöőű]",
+            "phonetic": "(gi|dj[$hungarian])"
+        },
+        {
+            "pattern": "gy",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(gi|d[$hungarian])"
+        },
+        {
+            "pattern": "g",
+            "leftContext": "[yaeiou]",
+            "rightContext": "[aouyei]",
+            "phonetic": "g"
+        },
+        {
+            "pattern": "g",
+            "leftContext": "",
+            "rightContext": "[aouei]",
+            "phonetic": "(g|h[$russian])"
+        },
+        {
+            "pattern": "ij",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(i|ej[$dutch]|ix[$spanish]|iZ[\".($french+$romanian+$turkish+$portuguese).\"])"
+        },
+        {
+            "pattern": "j",
+            "leftContext": "",
+            "rightContext": "[aoeiuy]",
+            "phonetic": "(j|dZ[$english]|x[$spanish]|Z[\".($french+$romanian+$turkish+$portuguese).\"])"
+        },
+        {
+            "pattern": "rz",
+            "leftContext": "t",
+            "rightContext": "",
+            "phonetic": "(S[$polish]|r)"
+        },
+        {
+            "pattern": "rz",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(rz|rts[$german]|Z[$polish]|r[$polish]|rZ[$polish])"
+        },
+        {
+            "pattern": "tz",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(ts|tS[\".($english+$german).\"])"
+        },
+        {
+            "pattern": "tz",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "(ts[\".($english+$german+$russian).\"]|tS[\".($english+$german).\"])"
+        },
+        {
+            "pattern": "tz",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(ts[\".($english+$german+$russian).\"]|tz)"
+        },
+        {
+            "pattern": "zia",
+            "leftContext": "",
+            "rightContext": "[bcdgkpstwzż]",
+            "phonetic": "(Za[$polish]|za[$polish]|zja)"
+        },
+        {
+            "pattern": "zia",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Za[$polish]|zja)"
+        },
+        {
+            "pattern": "zią",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(Zom[$polish]|zom)"
+        },
+        {
+            "pattern": "zią",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Zon[$polish]|zon)"
+        },
+        {
+            "pattern": "zię",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(Zem[$polish]|zem)"
+        },
+        {
+            "pattern": "zię",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Zen[$polish]|zen)"
+        },
+        {
+            "pattern": "zie",
+            "leftContext": "",
+            "rightContext": "[bcdgkpstwzż]",
+            "phonetic": "(Ze[$polish]|ze[$polish]|ze|tsi[$german])"
+        },
+        {
+            "pattern": "zie",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(ze|Ze[$polish]|tsi[$german])"
+        },
+        {
+            "pattern": "zio",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Zo[$polish]|zo)"
+        },
+        {
+            "pattern": "ziu",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Zu[$polish]|zju)"
+        },
+        {
+            "pattern": "zi",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Zi[$polish]|zi|tsi[$german]|dzi[$italian]|tsi[$italian]|si[$spanish])"
+        },
+        {
+            "pattern": "z",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(s|ts[$german]|ts[$italian]|S[$portuguese])"
+        },
+        {
+            "pattern": "z",
+            "leftContext": "",
+            "rightContext": "[bdgv]",
+            "phonetic": "(z|dz[$italian]|Z[$portuguese])"
+        },
+        {
+            "pattern": "z",
+            "leftContext": "",
+            "rightContext": "[ptckf]",
+            "phonetic": "(s|ts[$italian]|S[$portuguese])"
+        },
+        {
+            "pattern": "aue",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "aue"
+        },
+        {
+            "pattern": "oue",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(oue|ve[$french])"
+        },
+        {
+            "pattern": "eau",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "o"
+        },
+        {
+            "pattern": "ae",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Y[$german]|aje[$russian]|ae)"
+        },
+        {
+            "pattern": "ai",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "aj"
+        },
+        {
+            "pattern": "au",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(au|o[$french])"
+        },
+        {
+            "pattern": "ay",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "aj"
+        },
+        {
+            "pattern": "ão",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(au|an)"
+        },
+        {
+            "pattern": "ãe",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(aj|an)"
+        },
+        {
+            "pattern": "ãi",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(aj|an)"
+        },
+        {
+            "pattern": "ea",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(ea|ja[$romanian])"
+        },
+        {
+            "pattern": "ee",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(i[$english]|aje[$russian]|e)"
+        },
+        {
+            "pattern": "ei",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(aj|ej)"
+        },
+        {
+            "pattern": "eu",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(eu|Yj[$german]|ej[$german]|oj[$german]|Y[$dutch])"
+        },
+        {
+            "pattern": "ey",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(aj|ej)"
+        },
+        {
+            "pattern": "ia",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ja"
+        },
+        {
+            "pattern": "ie",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Die[$latvian]|i[$german]|e[$polish]|ije[$russian]|Q[$dutch]|je)"
+        },
+        {
+            "pattern": "ie",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(i[$german]|e[$polish]|ije[$russian]|Q[$dutch]|je)"
+        },
+        {
+            "pattern": "ii",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "io",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(jo|e[$russian])"
+        },
+        {
+            "pattern": "iu",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Diu[$latvian]|ju)"
+        },
+        {
+            "pattern": "iu",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ju"
+        },
+        {
+            "pattern": "iy",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "oe",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Y[$german]|oje[$russian]|u[$dutch]|oe)"
+        },
+        {
+            "pattern": "oi",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "oj"
+        },
+        {
+            "pattern": "oo",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(u[$english]|o)"
+        },
+        {
+            "pattern": "ou",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(ou|u[\".($french+$greeklatin).\"]|au[$dutch])"
+        },
+        {
+            "pattern": "où",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "u"
+        },
+        {
+            "pattern": "oy",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "oj"
+        },
+        {
+            "pattern": "õe",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(oj|on)"
+        },
+        {
+            "pattern": "ua",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "va"
+        },
+        {
+            "pattern": "ue",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Q[$german]|uje[$russian]|ve)"
+        },
+        {
+            "pattern": "ui",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Dui[$latvian]|uj|vi|Y[$dutch])"
+        },
+        {
+            "pattern": "ui",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(uj|vi|Y[$dutch])"
+        },
+        {
+            "pattern": "uu",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(u|Q[$dutch])"
+        },
+        {
+            "pattern": "uo",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(vo|o)"
+        },
+        {
+            "pattern": "uy",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "uj"
+        },
+        {
+            "pattern": "ya",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ja"
+        },
+        {
+            "pattern": "ye",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(je|ije[$russian])"
+        },
+        {
+            "pattern": "yi",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "yi",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "yo",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(jo|e[$russian])"
+        },
+        {
+            "pattern": "yu",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ju"
+        },
+        {
+            "pattern": "yy",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "i",
+            "leftContext": "[áóéê]",
+            "rightContext": "",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "y",
+            "leftContext": "[áóéê]",
+            "rightContext": "",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "e",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "(e|je[$russian])"
+        },
+        {
+            "pattern": "e",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(e|EE[\".($english+$french).\"])"
+        },
+        {
+            "pattern": "ą",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "om"
+        },
+        {
+            "pattern": "ą",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "on"
+        },
+        {
+            "pattern": "ä",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Y|e)"
+        },
+        {
+            "pattern": "á",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "a"
+        },
+        {
+            "pattern": "à",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "a"
+        },
+        {
+            "pattern": "â",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "a"
+        },
+        {
+            "pattern": "ã",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(a|an)"
+        },
+        {
+            "pattern": "ă",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(e[$romanian]|a)"
+        },
+        {
+            "pattern": "ā",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "a"
+        },
+        {
+            "pattern": "č",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "tS"
+        },
+        {
+            "pattern": "ć",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(tS[$polish]|ts)"
+        },
+        {
+            "pattern": "ç",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(s|tS[$turkish])"
+        },
+        {
+            "pattern": "ď",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(d|dj[$czech])"
+        },
+        {
+            "pattern": "ę",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "em"
+        },
+        {
+            "pattern": "ę",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "en"
+        },
+        {
+            "pattern": "é",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "e"
+        },
+        {
+            "pattern": "è",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "e"
+        },
+        {
+            "pattern": "ê",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "e"
+        },
+        {
+            "pattern": "ě",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(e|je[$czech])"
+        },
+        {
+            "pattern": "ē",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "e"
+        },
+        {
+            "pattern": "ģ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(d|dj)"
+        },
+        {
+            "pattern": "ğ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": ""
+        },
+        {
+            "pattern": "í",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "î",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "ī",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "ı",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(i|e[$turkish]|[$turkish])"
+        },
+        {
+            "pattern": "ķ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(k|t[$latvian]|tj[$latvian])"
+        },
+        {
+            "pattern": "ļ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(l|lj)"
+        },
+        {
+            "pattern": "ļ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "l"
+        },
+        {
+            "pattern": "ł",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "l"
+        },
+        {
+            "pattern": "ń",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(n|nj[$polish])"
+        },
+        {
+            "pattern": "ñ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(n|nj[$spanish])"
+        },
+        {
+            "pattern": "ņ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(n|nj[$latvian])"
+        },
+        {
+            "pattern": "ó",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(u[$polish]|o)"
+        },
+        {
+            "pattern": "ô",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "o"
+        },
+        {
+            "pattern": "õ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(o|on[$portuguese]|Y[$hungarian])"
+        },
+        {
+            "pattern": "ò",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "o"
+        },
+        {
+            "pattern": "ö",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "Y"
+        },
+        {
+            "pattern": "ř",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(r|rZ[$czech])"
+        },
+        {
+            "pattern": "ś",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(S[$polish]|s)"
+        },
+        {
+            "pattern": "ş",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "š",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "ţ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ts"
+        },
+        {
+            "pattern": "ť",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(t|tj[$czech])"
+        },
+        {
+            "pattern": "ű",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "Q"
+        },
+        {
+            "pattern": "ü",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Q|u[\".($portuguese+$spanish).\"])"
+        },
+        {
+            "pattern": "ū",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "u"
+        },
+        {
+            "pattern": "ú",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "u"
+        },
+        {
+            "pattern": "ů",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "u"
+        },
+        {
+            "pattern": "ù",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "u"
+        },
+        {
+            "pattern": "ý",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "ż",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "Z"
+        },
+        {
+            "pattern": "ź",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Z[$polish]|z)"
+        },
+        {
+            "pattern": "ž",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "Z"
+        },
+        {
+            "pattern": "ß",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "'",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": ""
+        },
+        {
+            "pattern": "\"",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": ""
+        },
+        {
+            "pattern": "o",
+            "leftContext": "",
+            "rightContext": "[bcćdgklłmnńrsśtwzźż]",
+            "phonetic": "(O|P[$polish])"
+        },
+        {
+            "pattern": "a",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "A"
+        },
+        {
+            "pattern": "b",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "B"
+        },
+        {
+            "pattern": "c",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(k|ts[\".($polish+$czech).\"]|dZ[$turkish])"
+        },
+        {
+            "pattern": "d",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "d"
+        },
+        {
+            "pattern": "e",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "E"
+        },
+        {
+            "pattern": "f",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "f"
+        },
+        {
+            "pattern": "g",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(g|x[$dutch])"
+        },
+        {
+            "pattern": "g",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "g"
+        },
+        {
+            "pattern": "h",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(h|x[$romanian]|H[\".($french+$portuguese+$italian+$spanish).\"])"
+        },
+        {
+            "pattern": "i",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "I"
+        },
+        {
+            "pattern": "j",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(j|x[$spanish]|Z[\".($french+$romanian+$turkish+$portuguese).\"])"
+        },
+        {
+            "pattern": "k",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "k"
+        },
+        {
+            "pattern": "l",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "l"
+        },
+        {
+            "pattern": "m",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "m"
+        },
+        {
+            "pattern": "n",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "n"
+        },
+        {
+            "pattern": "o",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "O"
+        },
+        {
+            "pattern": "p",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "p"
+        },
+        {
+            "pattern": "q",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "k"
+        },
+        {
+            "pattern": "r",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "r"
+        },
+        {
+            "pattern": "s",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(s|S[$portuguese])"
+        },
+        {
+            "pattern": "t",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "t"
+        },
+        {
+            "pattern": "u",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "U"
+        },
+        {
+            "pattern": "v",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "V"
+        },
+        {
+            "pattern": "w",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(v|w[\".($english+$dutch).\"])"
+        },
+        {
+            "pattern": "x",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(ks|gz|S[\".($portuguese+$spanish).\"])"
+        },
+        {
+            "pattern": "y",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "z",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(z|ts[$german]|dz[$italian]|ts[$italian]|s[$spanish])"
+        }
+    ]
+}

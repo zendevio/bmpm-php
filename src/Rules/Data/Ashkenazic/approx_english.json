@@ -1,0 +1,62 @@
+{
+    "name": "Approx english",
+    "description": "Converted from approxenglish.php",
+    "version": "3.15",
+    "source": "approxenglish.php",
+    "rules": [
+        {
+            "pattern": "I",
+            "leftContext": "",
+            "rightContext": "[^aEIeiou]e",
+            "phonetic": "(Q|i|D)"
+        },
+        {
+            "pattern": "lE",
+            "leftContext": "[bdfgkmnprsStvzZ]",
+            "rightContext": "",
+            "phonetic": "(il|li|lY)"
+        },
+        {
+            "pattern": "au",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|a|u)"
+        },
+        {
+            "pattern": "ou",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|o|u)"
+        },
+        {
+            "pattern": "ai",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|a|i)"
+        },
+        {
+            "pattern": "oi",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|o|i)"
+        },
+        {
+            "pattern": "ui",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|u|i)"
+        },
+        {
+            "pattern": "E",
+            "leftContext": "D[^aeiEIou]",
+            "rightContext": "",
+            "phonetic": "(i|)"
+        },
+        {
+            "pattern": "e",
+            "leftContext": "D[^aeiEIou]",
+            "rightContext": "",
+            "phonetic": "(i|)"
+        }
+    ]
+}

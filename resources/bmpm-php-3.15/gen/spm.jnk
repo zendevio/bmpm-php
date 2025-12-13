@@ -1,0 +1,10 @@
+--- lang.php	2017-02-01 12:49:31.038000000 -0800
++++ lang.php.xxx	2021-07-07 20:05:25.970022200 -0700
+@@ -1,4 +1,7 @@
+ <?php
++   if (strpos($_SERVER['SERVER_NAME'], "jewishgen") !== false) {
++     include_once("\\\jewishgen6\JEWISHGEN\wwwroot\blockscript\detector.php");
++   }
+ 
+   /*
+    *

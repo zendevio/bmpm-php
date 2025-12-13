@@ -1,0 +1,14 @@
+{
+    "name": "Exact any",
+    "description": "Converted from exactany.php",
+    "version": "3.15",
+    "source": "exactany.php",
+    "rules": [
+        {
+            "pattern": "E",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "e"
+        }
+    ]
+}

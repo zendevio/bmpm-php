@@ -1,0 +1,242 @@
+{
+    "name": "Rules hebrew",
+    "description": "Converted from ruleshebrew.php",
+    "version": "3.15",
+    "source": "ruleshebrew.php",
+    "rules": [
+        {
+            "pattern": "אי",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "עי",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "עו",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "VV"
+        },
+        {
+            "pattern": "או",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "VV"
+        },
+        {
+            "pattern": "ג׳",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "Z"
+        },
+        {
+            "pattern": "ד׳",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "dZ"
+        },
+        {
+            "pattern": "א",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "L"
+        },
+        {
+            "pattern": "ב",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "b"
+        },
+        {
+            "pattern": "ג",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "g"
+        },
+        {
+            "pattern": "ד",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "d"
+        },
+        {
+            "pattern": "ה",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "1"
+        },
+        {
+            "pattern": "ה",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "1"
+        },
+        {
+            "pattern": "ה",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": ""
+        },
+        {
+            "pattern": "וו",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "V"
+        },
+        {
+            "pattern": "וי",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "WW"
+        },
+        {
+            "pattern": "ו",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "W"
+        },
+        {
+            "pattern": "ז",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "z"
+        },
+        {
+            "pattern": "ח",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "X"
+        },
+        {
+            "pattern": "ט",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "T"
+        },
+        {
+            "pattern": "יי",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "י",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "ך",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "X"
+        },
+        {
+            "pattern": "כ",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "K"
+        },
+        {
+            "pattern": "כ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "k"
+        },
+        {
+            "pattern": "ל",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "l"
+        },
+        {
+            "pattern": "ם",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "m"
+        },
+        {
+            "pattern": "מ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "m"
+        },
+        {
+            "pattern": "ן",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "n"
+        },
+        {
+            "pattern": "נ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "n"
+        },
+        {
+            "pattern": "ס",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "ע",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "L"
+        },
+        {
+            "pattern": "ף",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "f"
+        },
+        {
+            "pattern": "פ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "f"
+        },
+        {
+            "pattern": "ץ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "C"
+        },
+        {
+            "pattern": "צ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "C"
+        },
+        {
+            "pattern": "ק",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "K"
+        },
+        {
+            "pattern": "ר",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "r"
+        },
+        {
+            "pattern": "ש",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "ת",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "TB"
+        }
+    ]
+}

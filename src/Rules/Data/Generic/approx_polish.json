@@ -1,0 +1,230 @@
+{
+    "name": "Approx polish",
+    "description": "Converted from approxpolish.php",
+    "version": "3.15",
+    "source": "approxpolish.php",
+    "rules": [
+        {
+            "pattern": "aiB",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "oiB",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "uiB",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "eiB",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "EiB",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "iiB",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "IiB",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "aiB",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "oiB",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "uiB",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "eiB",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "EiB",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "iiB",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "IiB",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "B",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(o|om|im)"
+        },
+        {
+            "pattern": "B",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(o|on|in)"
+        },
+        {
+            "pattern": "aiF",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "oiF",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "uiF",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "eiF",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "EiF",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "iiF",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "IiF",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(D|Dm)"
+        },
+        {
+            "pattern": "aiF",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "oiF",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "uiF",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "eiF",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "EiF",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "iiF",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "IiF",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(D|Dn)"
+        },
+        {
+            "pattern": "F",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(i|im|om)"
+        },
+        {
+            "pattern": "F",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(i|in|on)"
+        },
+        {
+            "pattern": "au",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|a|u)"
+        },
+        {
+            "pattern": "ou",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|o|u)"
+        },
+        {
+            "pattern": "ai",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|a|i)"
+        },
+        {
+            "pattern": "oi",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|o|i)"
+        },
+        {
+            "pattern": "ui",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|u|i)"
+        }
+    ]
+}

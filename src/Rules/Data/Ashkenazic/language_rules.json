@@ -1,0 +1,868 @@
+{
+    "name": "Language rules",
+    "description": "Converted from lang.php",
+    "version": "3.15",
+    "source": "lang.php",
+    "rules": [
+        {
+            "pattern": "\/zh\/",
+            "languages": 660,
+            "accept": true
+        },
+        {
+            "pattern": "\/eau\/",
+            "languages": 8,
+            "accept": true
+        },
+        {
+            "pattern": "\/[aoeiuäöü]h\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/^vogel\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/vogel$\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/witz\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/tz$\/",
+            "languages": 532,
+            "accept": true
+        },
+        {
+            "pattern": "\/^tz\/",
+            "languages": 516,
+            "accept": true
+        },
+        {
+            "pattern": "\/güe\/",
+            "languages": 1024,
+            "accept": true
+        },
+        {
+            "pattern": "\/güi\/",
+            "languages": 1024,
+            "accept": true
+        },
+        {
+            "pattern": "\/ghe\/",
+            "languages": 256,
+            "accept": true
+        },
+        {
+            "pattern": "\/ghi\/",
+            "languages": 256,
+            "accept": true
+        },
+        {
+            "pattern": "\/vici$\/",
+            "languages": 256,
+            "accept": true
+        },
+        {
+            "pattern": "\/schi$\/",
+            "languages": 256,
+            "accept": true
+        },
+        {
+            "pattern": "\/chsch\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/tsch\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/ssch\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/sch$\/",
+            "languages": 528,
+            "accept": true
+        },
+        {
+            "pattern": "\/^sch\/",
+            "languages": 528,
+            "accept": true
+        },
+        {
+            "pattern": "\/^rz\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/rz$\/",
+            "languages": 144,
+            "accept": true
+        },
+        {
+            "pattern": "\/[^aoeiuäöü]rz\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/rz[^aoeiuäöü]\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/cki$\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/ska$\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/cka$\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/ue\/",
+            "languages": 528,
+            "accept": true
+        },
+        {
+            "pattern": "\/ae\/",
+            "languages": 532,
+            "accept": true
+        },
+        {
+            "pattern": "\/oe\/",
+            "languages": 540,
+            "accept": true
+        },
+        {
+            "pattern": "\/th$\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/^th\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/th[^aoeiu]\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/mann\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/cz\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/cy\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/niew\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/stein\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/heim$\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/heimer$\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/ii$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/iy$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/yy$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/yi$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/yj$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/ij$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/gaus$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/gauz$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/gauz$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/goltz$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/gol'tz$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/golts$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/gol'ts$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/^goltz\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/^gol'tz\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/^golts\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/^gol'ts\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/gendler$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/gejmer$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/gejm$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/geimer$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/geim$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/geymer\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/geym$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/gof$\/",
+            "languages": 512,
+            "accept": true
+        },
+        {
+            "pattern": "\/thal\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/zweig\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/ck$\/",
+            "languages": 20,
+            "accept": true
+        },
+        {
+            "pattern": "\/c$\/",
+            "languages": 448,
+            "accept": true
+        },
+        {
+            "pattern": "\/sz\/",
+            "languages": 192,
+            "accept": true
+        },
+        {
+            "pattern": "\/gue\/",
+            "languages": 1032,
+            "accept": true
+        },
+        {
+            "pattern": "\/gui\/",
+            "languages": 1032,
+            "accept": true
+        },
+        {
+            "pattern": "\/guy\/",
+            "languages": 8,
+            "accept": true
+        },
+        {
+            "pattern": "\/cs$\/",
+            "languages": 64,
+            "accept": true
+        },
+        {
+            "pattern": "\/^cs\/",
+            "languages": 64,
+            "accept": true
+        },
+        {
+            "pattern": "\/dzs\/",
+            "languages": 64,
+            "accept": true
+        },
+        {
+            "pattern": "\/zs$\/",
+            "languages": 64,
+            "accept": true
+        },
+        {
+            "pattern": "\/^zs\/",
+            "languages": 64,
+            "accept": true
+        },
+        {
+            "pattern": "\/^wl\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/^wr\/",
+            "languages": 148,
+            "accept": true
+        },
+        {
+            "pattern": "\/gy$\/",
+            "languages": 64,
+            "accept": true
+        },
+        {
+            "pattern": "\/gy[aeou]\/",
+            "languages": 64,
+            "accept": true
+        },
+        {
+            "pattern": "\/gy\/",
+            "languages": 576,
+            "accept": true
+        },
+        {
+            "pattern": "\/ly\/",
+            "languages": 704,
+            "accept": true
+        },
+        {
+            "pattern": "\/ny\/",
+            "languages": 704,
+            "accept": true
+        },
+        {
+            "pattern": "\/ty\/",
+            "languages": 704,
+            "accept": true
+        },
+        {
+            "pattern": "\/â\/",
+            "languages": 264,
+            "accept": true
+        },
+        {
+            "pattern": "\/ă\/",
+            "languages": 256,
+            "accept": true
+        },
+        {
+            "pattern": "\/à\/",
+            "languages": 8,
+            "accept": true
+        },
+        {
+            "pattern": "\/ä\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/á\/",
+            "languages": 1088,
+            "accept": true
+        },
+        {
+            "pattern": "\/ą\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/ć\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/ç\/",
+            "languages": 8,
+            "accept": true
+        },
+        {
+            "pattern": "\/ę\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/é\/",
+            "languages": 1096,
+            "accept": true
+        },
+        {
+            "pattern": "\/è\/",
+            "languages": 8,
+            "accept": true
+        },
+        {
+            "pattern": "\/ê\/",
+            "languages": 8,
+            "accept": true
+        },
+        {
+            "pattern": "\/í\/",
+            "languages": 1088,
+            "accept": true
+        },
+        {
+            "pattern": "\/î\/",
+            "languages": 264,
+            "accept": true
+        },
+        {
+            "pattern": "\/ł\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/ń\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/ñ\/",
+            "languages": 1024,
+            "accept": true
+        },
+        {
+            "pattern": "\/ó\/",
+            "languages": 1216,
+            "accept": true
+        },
+        {
+            "pattern": "\/ö\/",
+            "languages": 80,
+            "accept": true
+        },
+        {
+            "pattern": "\/õ\/",
+            "languages": 64,
+            "accept": true
+        },
+        {
+            "pattern": "\/ş\/",
+            "languages": 256,
+            "accept": true
+        },
+        {
+            "pattern": "\/ś\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/ţ\/",
+            "languages": 256,
+            "accept": true
+        },
+        {
+            "pattern": "\/ü\/",
+            "languages": 80,
+            "accept": true
+        },
+        {
+            "pattern": "\/ù\/",
+            "languages": 8,
+            "accept": true
+        },
+        {
+            "pattern": "\/ű\/",
+            "languages": 64,
+            "accept": true
+        },
+        {
+            "pattern": "\/ú\/",
+            "languages": 1088,
+            "accept": true
+        },
+        {
+            "pattern": "\/ź\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/ż\/",
+            "languages": 128,
+            "accept": true
+        },
+        {
+            "pattern": "\/ß\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/а\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/ё\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/о\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/е\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/и\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/у\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/ы\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/э\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/ю\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/я\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/א\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ב\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ג\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ד\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ה\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ו\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ז\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ח\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ט\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/י\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/כ\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ל\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/מ\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/נ\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ס\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ע\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/פ\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/צ\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ק\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ר\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ש\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/ת\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/a\/",
+            "languages": 34,
+            "accept": false
+        },
+        {
+            "pattern": "\/o\/",
+            "languages": 34,
+            "accept": false
+        },
+        {
+            "pattern": "\/e\/",
+            "languages": 34,
+            "accept": false
+        },
+        {
+            "pattern": "\/i\/",
+            "languages": 34,
+            "accept": false
+        },
+        {
+            "pattern": "\/y\/",
+            "languages": 290,
+            "accept": false
+        },
+        {
+            "pattern": "\/u\/",
+            "languages": 34,
+            "accept": false
+        },
+        {
+            "pattern": "\/v[^aoeiuäüö]\/",
+            "languages": 16,
+            "accept": false
+        },
+        {
+            "pattern": "\/y[^aoeiu]\/",
+            "languages": 16,
+            "accept": false
+        },
+        {
+            "pattern": "\/c[^aohk]\/",
+            "languages": 16,
+            "accept": false
+        },
+        {
+            "pattern": "\/dzi\/",
+            "languages": 28,
+            "accept": false
+        },
+        {
+            "pattern": "\/ou\/",
+            "languages": 16,
+            "accept": false
+        },
+        {
+            "pattern": "\/aj\/",
+            "languages": 28,
+            "accept": false
+        },
+        {
+            "pattern": "\/ej\/",
+            "languages": 28,
+            "accept": false
+        },
+        {
+            "pattern": "\/oj\/",
+            "languages": 28,
+            "accept": false
+        },
+        {
+            "pattern": "\/uj\/",
+            "languages": 28,
+            "accept": false
+        },
+        {
+            "pattern": "\/k\/",
+            "languages": 256,
+            "accept": false
+        },
+        {
+            "pattern": "\/v\/",
+            "languages": 128,
+            "accept": false
+        },
+        {
+            "pattern": "\/ky\/",
+            "languages": 128,
+            "accept": false
+        },
+        {
+            "pattern": "\/eu\/",
+            "languages": 640,
+            "accept": false
+        },
+        {
+            "pattern": "\/w\/",
+            "languages": 1864,
+            "accept": false
+        },
+        {
+            "pattern": "\/kie\/",
+            "languages": 1032,
+            "accept": false
+        },
+        {
+            "pattern": "\/gie\/",
+            "languages": 1288,
+            "accept": false
+        },
+        {
+            "pattern": "\/q\/",
+            "languages": 960,
+            "accept": false
+        },
+        {
+            "pattern": "\/sch\/",
+            "languages": 1224,
+            "accept": false
+        },
+        {
+            "pattern": "\/^h\/",
+            "languages": 512,
+            "accept": false
+        }
+    ]
+}

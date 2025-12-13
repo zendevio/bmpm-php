@@ -1,0 +1,356 @@
+{
+    "name": "Rules arabic",
+    "description": "Converted from rulesarabic.php",
+    "version": "3.15",
+    "source": "rulesarabic.php",
+    "rules": [
+        {
+            "pattern": "ا",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "a"
+        },
+        {
+            "pattern": "ب",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "b"
+        },
+        {
+            "pattern": "ب",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "b1"
+        },
+        {
+            "pattern": "ت",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "t"
+        },
+        {
+            "pattern": "ت",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "t1"
+        },
+        {
+            "pattern": "ث",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "t"
+        },
+        {
+            "pattern": "ث",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "t1"
+        },
+        {
+            "pattern": "ج",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(dZ|Z)"
+        },
+        {
+            "pattern": "ج",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(dZ1|Z1)"
+        },
+        {
+            "pattern": "ح",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "1"
+        },
+        {
+            "pattern": "ح",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "1"
+        },
+        {
+            "pattern": "ح",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(h1|1)"
+        },
+        {
+            "pattern": "خ",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "x"
+        },
+        {
+            "pattern": "خ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "x1"
+        },
+        {
+            "pattern": "د",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "d"
+        },
+        {
+            "pattern": "د",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "d1"
+        },
+        {
+            "pattern": "ذ",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "d"
+        },
+        {
+            "pattern": "ذ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "d1"
+        },
+        {
+            "pattern": "ر",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "r"
+        },
+        {
+            "pattern": "ر",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "r1"
+        },
+        {
+            "pattern": "ز",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "z"
+        },
+        {
+            "pattern": "ز",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "z1"
+        },
+        {
+            "pattern": "س",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "س",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "s1"
+        },
+        {
+            "pattern": "ش",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "ش",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "S1"
+        },
+        {
+            "pattern": "ص",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "ص",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "s1"
+        },
+        {
+            "pattern": "ض",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "d"
+        },
+        {
+            "pattern": "ض",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "d1"
+        },
+        {
+            "pattern": "ط",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "t"
+        },
+        {
+            "pattern": "ط",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "t1"
+        },
+        {
+            "pattern": "ظ",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "z"
+        },
+        {
+            "pattern": "ظ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "z1"
+        },
+        {
+            "pattern": "ع",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "1"
+        },
+        {
+            "pattern": "ع",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "1"
+        },
+        {
+            "pattern": "ع",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(h1|1)"
+        },
+        {
+            "pattern": "غ",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "g"
+        },
+        {
+            "pattern": "غ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "g1"
+        },
+        {
+            "pattern": "ف",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "f"
+        },
+        {
+            "pattern": "ف",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "f1"
+        },
+        {
+            "pattern": "ق",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "k"
+        },
+        {
+            "pattern": "ق",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "k1"
+        },
+        {
+            "pattern": "ك",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "k"
+        },
+        {
+            "pattern": "ك",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "k1"
+        },
+        {
+            "pattern": "ل",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "l"
+        },
+        {
+            "pattern": "ل",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "l1"
+        },
+        {
+            "pattern": "م",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "m"
+        },
+        {
+            "pattern": "م",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "m1"
+        },
+        {
+            "pattern": "ن",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "n"
+        },
+        {
+            "pattern": "ن",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "n1"
+        },
+        {
+            "pattern": "ه",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "1"
+        },
+        {
+            "pattern": "ه",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "1"
+        },
+        {
+            "pattern": "ه",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(h1|1)"
+        },
+        {
+            "pattern": "و",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(u|v)"
+        },
+        {
+            "pattern": "و",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(u|v1)"
+        },
+        {
+            "pattern": "ي‎",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(i|j)"
+        },
+        {
+            "pattern": "ي‎",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(i|j1)"
+        }
+    ]
+}

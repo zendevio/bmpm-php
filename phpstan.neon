@@ -1,0 +1,41 @@
+includes:
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+
+parameters:
+    level: max
+    paths:
+        - src
+        - tests
+    excludePaths:
+        - tests/Fixtures
+    reportUnmatchedIgnoredErrors: false
+    # PHPStan 2.x: treat PHPDoc types as certain for stricter analysis
+    treatPhpDocTypesAsCertain: false
+    ignoreErrors:
+        # Allow dynamic method calls in tests
+        - '#Call to an undefined method .+::expect.+#'
+        # Ignore missing generic typehints (replacement for deprecated checkGenericClassInNonGenericObjectType)
+        - identifier: missingType.generics
+        # Reserved constants for future use in DaitchMokotoffSoundex
+        - '#Constant .+::FIRST_LETTER is unused#'
+        - '#Constant .+::LAST_LETTER is unused#'
+        # Null-coalescing on always-existing array offsets (safe defensive coding)
+        - '#Offset .+ on left side of \?\? always exists#'
+        # PHPStan can't fully infer D-M Soundex branching array structure
+        -
+            message: '#Offset int<0, 1> does not exist#'
+            path: src/Soundex/DaitchMokotoffSoundex.php
+        -
+            message: '#Else branch is unreachable#'
+            path: src/Soundex/DaitchMokotoffSoundex.php
+        -
+            message: "#Strict comparison using !== between .+ and '999'#"
+            path: src/Soundex/DaitchMokotoffSoundex.php
+        # PHPStan 2.x: test assertions that "always evaluate to true" are valid test assertions
+        -
+            identifier: staticMethod.alreadyNarrowedType
+            path: tests/
+        # PHPUnit's createStub/createMock are called dynamically on $this
+        -
+            identifier: staticMethod.dynamicCall
+            path: tests/

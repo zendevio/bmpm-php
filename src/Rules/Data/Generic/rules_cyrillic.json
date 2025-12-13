@@ -1,0 +1,458 @@
+{
+    "name": "Rules cyrillic",
+    "description": "Converted from rulescyrillic.php",
+    "version": "3.15",
+    "source": "rulescyrillic.php",
+    "rules": [
+        {
+            "pattern": "ця",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "tsa"
+        },
+        {
+            "pattern": "цю",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "tsu"
+        },
+        {
+            "pattern": "циа",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "tsa"
+        },
+        {
+            "pattern": "цие",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "tse"
+        },
+        {
+            "pattern": "цио",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "tso"
+        },
+        {
+            "pattern": "циу",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "tsu"
+        },
+        {
+            "pattern": "сие",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "se"
+        },
+        {
+            "pattern": "сио",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "so"
+        },
+        {
+            "pattern": "зие",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ze"
+        },
+        {
+            "pattern": "зио",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "zo"
+        },
+        {
+            "pattern": "с",
+            "leftContext": "",
+            "rightContext": "с",
+            "phonetic": ""
+        },
+        {
+            "pattern": "гауз",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "haus"
+        },
+        {
+            "pattern": "гаус",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "haus"
+        },
+        {
+            "pattern": "гольц",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "holts"
+        },
+        {
+            "pattern": "геймер",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(hejmer|hajmer)"
+        },
+        {
+            "pattern": "гейм",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "(hejm|hajm)"
+        },
+        {
+            "pattern": "гоф",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "hof"
+        },
+        {
+            "pattern": "гер",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "ger"
+        },
+        {
+            "pattern": "ген",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "gen"
+        },
+        {
+            "pattern": "гин",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "gin"
+        },
+        {
+            "pattern": "г",
+            "leftContext": "(й|ё|я|ю|ы|а|е|о|и|у)",
+            "rightContext": "(а|е|о|и|у)",
+            "phonetic": "g"
+        },
+        {
+            "pattern": "г",
+            "leftContext": "",
+            "rightContext": "(а|е|о|и|у)",
+            "phonetic": "(g|h)"
+        },
+        {
+            "pattern": "ля",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "la"
+        },
+        {
+            "pattern": "лю",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "lu"
+        },
+        {
+            "pattern": "лё",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(le|lo)"
+        },
+        {
+            "pattern": "лио",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(le|lo)"
+        },
+        {
+            "pattern": "ле",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(lE|lo)"
+        },
+        {
+            "pattern": "ийе",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "je"
+        },
+        {
+            "pattern": "ие",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "je"
+        },
+        {
+            "pattern": "ыйе",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "je"
+        },
+        {
+            "pattern": "ые",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "je"
+        },
+        {
+            "pattern": "ий",
+            "leftContext": "",
+            "rightContext": "(а|о|у)",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "ый",
+            "leftContext": "",
+            "rightContext": "(а|о|у)",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "ий",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "ый",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "ей",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "(jej|ej)"
+        },
+        {
+            "pattern": "е",
+            "leftContext": "(а|е|о|у)",
+            "rightContext": "",
+            "phonetic": "je"
+        },
+        {
+            "pattern": "е",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "je"
+        },
+        {
+            "pattern": "эй",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ej"
+        },
+        {
+            "pattern": "ей",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ej"
+        },
+        {
+            "pattern": "ауе",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "aue"
+        },
+        {
+            "pattern": "ауэ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "aue"
+        },
+        {
+            "pattern": "а",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "a"
+        },
+        {
+            "pattern": "б",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "b"
+        },
+        {
+            "pattern": "в",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "v"
+        },
+        {
+            "pattern": "г",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "g"
+        },
+        {
+            "pattern": "д",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "d"
+        },
+        {
+            "pattern": "е",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "E"
+        },
+        {
+            "pattern": "ё",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(e|jo)"
+        },
+        {
+            "pattern": "ж",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "Z"
+        },
+        {
+            "pattern": "з",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "z"
+        },
+        {
+            "pattern": "и",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "I"
+        },
+        {
+            "pattern": "й",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "к",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "k"
+        },
+        {
+            "pattern": "л",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "l"
+        },
+        {
+            "pattern": "м",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "m"
+        },
+        {
+            "pattern": "н",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "n"
+        },
+        {
+            "pattern": "о",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "o"
+        },
+        {
+            "pattern": "п",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "p"
+        },
+        {
+            "pattern": "р",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "r"
+        },
+        {
+            "pattern": "с",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "т",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "t"
+        },
+        {
+            "pattern": "у",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "u"
+        },
+        {
+            "pattern": "ф",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "f"
+        },
+        {
+            "pattern": "х",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "x"
+        },
+        {
+            "pattern": "ц",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ts"
+        },
+        {
+            "pattern": "ч",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "tS"
+        },
+        {
+            "pattern": "ш",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "щ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "StS"
+        },
+        {
+            "pattern": "ъ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": ""
+        },
+        {
+            "pattern": "ы",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "I"
+        },
+        {
+            "pattern": "ь",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": ""
+        },
+        {
+            "pattern": "э",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "E"
+        },
+        {
+            "pattern": "ю",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ju"
+        },
+        {
+            "pattern": "я",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ja"
+        }
+    ]
+}

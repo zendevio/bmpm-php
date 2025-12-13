@@ -1,0 +1,68 @@
+{
+    "name": "Exact common",
+    "description": "Converted from exactcommon.php",
+    "version": "3.15",
+    "source": "exactcommon.php",
+    "rules": [
+        {
+            "pattern": "H",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "h"
+        },
+        {
+            "pattern": "s",
+            "leftContext": "[^t]",
+            "rightContext": "[bgZd]",
+            "phonetic": "z"
+        },
+        {
+            "pattern": "Z",
+            "leftContext": "",
+            "rightContext": "[pfkst]",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "Z",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "S",
+            "leftContext": "",
+            "rightContext": "[bgzd]",
+            "phonetic": "Z"
+        },
+        {
+            "pattern": "z",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "ji",
+            "leftContext": "[aAoOeEiIuU]",
+            "rightContext": "",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "jI",
+            "leftContext": "[aAoOeEiIuU]",
+            "rightContext": "",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "je",
+            "leftContext": "[aAoOeEiIuU]",
+            "rightContext": "",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "jE",
+            "leftContext": "[aAoOeEiIuU]",
+            "rightContext": "",
+            "phonetic": "j"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Approx greeklatin",
+    "description": "Converted from approxgreeklatin.php",
+    "version": "3.15",
+    "source": "approxgreeklatin.php",
+    "rules": [
+        {
+            "pattern": "N",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": ""
+        }
+    ]
+}

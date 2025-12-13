@@ -1,0 +1,62 @@
+{
+    "name": "Exact common",
+    "description": "Converted from exactcommon.php",
+    "version": "3.15",
+    "source": "exactcommon.php",
+    "rules": [
+        {
+            "pattern": "h",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": ""
+        },
+        {
+            "pattern": "C",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "k"
+        },
+        {
+            "pattern": "s",
+            "leftContext": "[^t]",
+            "rightContext": "[bgZd]",
+            "phonetic": "z"
+        },
+        {
+            "pattern": "Z",
+            "leftContext": "",
+            "rightContext": "[pfkst]",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "Z",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "S"
+        },
+        {
+            "pattern": "S",
+            "leftContext": "",
+            "rightContext": "[bgzd]",
+            "phonetic": "Z"
+        },
+        {
+            "pattern": "z",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "B",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "b"
+        },
+        {
+            "pattern": "V",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "v"
+        }
+    ]
+}

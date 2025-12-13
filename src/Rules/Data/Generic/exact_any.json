@@ -1,0 +1,44 @@
+{
+    "name": "Exact any",
+    "description": "Converted from exactany.php",
+    "version": "3.15",
+    "source": "exactany.php",
+    "rules": [
+        {
+            "pattern": "B",
+            "leftContext": "",
+            "rightContext": "[fktSs]",
+            "phonetic": "p"
+        },
+        {
+            "pattern": "B",
+            "leftContext": "",
+            "rightContext": "p",
+            "phonetic": ""
+        },
+        {
+            "pattern": "B",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "p"
+        },
+        {
+            "pattern": "V",
+            "leftContext": "",
+            "rightContext": "[pktSs]",
+            "phonetic": "f"
+        },
+        {
+            "pattern": "V",
+            "leftContext": "",
+            "rightContext": "f",
+            "phonetic": ""
+        },
+        {
+            "pattern": "V",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "f"
+        }
+    ]
+}

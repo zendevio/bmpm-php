@@ -1,0 +1,74 @@
+{
+    "name": "Approx russian",
+    "description": "Converted from approxrussian.php",
+    "version": "3.15",
+    "source": "approxrussian.php",
+    "rules": [
+        {
+            "pattern": "au",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|a|u)"
+        },
+        {
+            "pattern": "ou",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|o|u)"
+        },
+        {
+            "pattern": "ai",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|a|i)"
+        },
+        {
+            "pattern": "oi",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|o|i)"
+        },
+        {
+            "pattern": "ui",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(D|u|i)"
+        },
+        {
+            "pattern": "om",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(om|im)"
+        },
+        {
+            "pattern": "on",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(on|in)"
+        },
+        {
+            "pattern": "em",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(im|om)"
+        },
+        {
+            "pattern": "en",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(in|on)"
+        },
+        {
+            "pattern": "Em",
+            "leftContext": "",
+            "rightContext": "[bp]",
+            "phonetic": "(im|Ym|om)"
+        },
+        {
+            "pattern": "En",
+            "leftContext": "",
+            "rightContext": "[dgkstvz]",
+            "phonetic": "(in|Yn|on)"
+        }
+    ]
+}

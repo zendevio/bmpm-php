@@ -1,0 +1,296 @@
+{
+    "name": "Exact approx common",
+    "description": "Converted from exactapproxcommon.php",
+    "version": "3.15",
+    "source": "exactapproxcommon.php",
+    "rules": [
+        {
+            "pattern": "h",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": ""
+        },
+        {
+            "pattern": "b",
+            "leftContext": "",
+            "rightContext": "[fktSs]",
+            "phonetic": "p"
+        },
+        {
+            "pattern": "b",
+            "leftContext": "",
+            "rightContext": "p",
+            "phonetic": ""
+        },
+        {
+            "pattern": "b",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "p"
+        },
+        {
+            "pattern": "p",
+            "leftContext": "",
+            "rightContext": "[vgdZz]",
+            "phonetic": "b"
+        },
+        {
+            "pattern": "p",
+            "leftContext": "",
+            "rightContext": "b",
+            "phonetic": ""
+        },
+        {
+            "pattern": "v",
+            "leftContext": "",
+            "rightContext": "[pktSs]",
+            "phonetic": "f"
+        },
+        {
+            "pattern": "v",
+            "leftContext": "",
+            "rightContext": "f",
+            "phonetic": ""
+        },
+        {
+            "pattern": "v",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "f"
+        },
+        {
+            "pattern": "f",
+            "leftContext": "",
+            "rightContext": "[vbgdZz]",
+            "phonetic": "v"
+        },
+        {
+            "pattern": "f",
+            "leftContext": "",
+            "rightContext": "v",
+            "phonetic": ""
+        },
+        {
+            "pattern": "g",
+            "leftContext": "",
+            "rightContext": "[pftSs]",
+            "phonetic": "k"
+        },
+        {
+            "pattern": "g",
+            "leftContext": "",
+            "rightContext": "k",
+            "phonetic": ""
+        },
+        {
+            "pattern": "g",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "k"
+        },
+        {
+            "pattern": "k",
+            "leftContext": "",
+            "rightContext": "[vbdZz]",
+            "phonetic": "g"
+        },
+        {
+            "pattern": "k",
+            "leftContext": "",
+            "rightContext": "g",
+            "phonetic": ""
+        },
+        {
+            "pattern": "d",
+            "leftContext": "",
+            "rightContext": "[pfkSs]",
+            "phonetic": "t"
+        },
+        {
+            "pattern": "d",
+            "leftContext": "",
+            "rightContext": "t",
+            "phonetic": ""
+        },
+        {
+            "pattern": "d",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "t"
+        },
+        {
+            "pattern": "t",
+            "leftContext": "",
+            "rightContext": "[vbgZz]",
+            "phonetic": "d"
+        },
+        {
+            "pattern": "t",
+            "leftContext": "",
+            "rightContext": "d",
+            "phonetic": ""
+        },
+        {
+            "pattern": "s",
+            "leftContext": "",
+            "rightContext": "dZ",
+            "phonetic": ""
+        },
+        {
+            "pattern": "s",
+            "leftContext": "",
+            "rightContext": "tS",
+            "phonetic": ""
+        },
+        {
+            "pattern": "z",
+            "leftContext": "",
+            "rightContext": "[pfkSt]",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "z",
+            "leftContext": "",
+            "rightContext": "[sSzZ]",
+            "phonetic": ""
+        },
+        {
+            "pattern": "s",
+            "leftContext": "",
+            "rightContext": "[sSzZ]",
+            "phonetic": ""
+        },
+        {
+            "pattern": "Z",
+            "leftContext": "",
+            "rightContext": "[sSzZ]",
+            "phonetic": ""
+        },
+        {
+            "pattern": "S",
+            "leftContext": "",
+            "rightContext": "[sSzZ]",
+            "phonetic": ""
+        },
+        {
+            "pattern": "jnm",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "jm"
+        },
+        {
+            "pattern": "ji",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "jI",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "I"
+        },
+        {
+            "pattern": "a",
+            "leftContext": "",
+            "rightContext": "[aA]",
+            "phonetic": ""
+        },
+        {
+            "pattern": "a",
+            "leftContext": "A",
+            "rightContext": "",
+            "phonetic": ""
+        },
+        {
+            "pattern": "A",
+            "leftContext": "",
+            "rightContext": "A",
+            "phonetic": ""
+        },
+        {
+            "pattern": "b",
+            "leftContext": "",
+            "rightContext": "b",
+            "phonetic": ""
+        },
+        {
+            "pattern": "d",
+            "leftContext": "",
+            "rightContext": "d",
+            "phonetic": ""
+        },
+        {
+            "pattern": "f",
+            "leftContext": "",
+            "rightContext": "f",
+            "phonetic": ""
+        },
+        {
+            "pattern": "g",
+            "leftContext": "",
+            "rightContext": "g",
+            "phonetic": ""
+        },
+        {
+            "pattern": "j",
+            "leftContext": "",
+            "rightContext": "j",
+            "phonetic": ""
+        },
+        {
+            "pattern": "k",
+            "leftContext": "",
+            "rightContext": "k",
+            "phonetic": ""
+        },
+        {
+            "pattern": "l",
+            "leftContext": "",
+            "rightContext": "l",
+            "phonetic": ""
+        },
+        {
+            "pattern": "m",
+            "leftContext": "",
+            "rightContext": "m",
+            "phonetic": ""
+        },
+        {
+            "pattern": "n",
+            "leftContext": "",
+            "rightContext": "n",
+            "phonetic": ""
+        },
+        {
+            "pattern": "p",
+            "leftContext": "",
+            "rightContext": "p",
+            "phonetic": ""
+        },
+        {
+            "pattern": "r",
+            "leftContext": "",
+            "rightContext": "r",
+            "phonetic": ""
+        },
+        {
+            "pattern": "t",
+            "leftContext": "",
+            "rightContext": "t",
+            "phonetic": ""
+        },
+        {
+            "pattern": "v",
+            "leftContext": "",
+            "rightContext": "v",
+            "phonetic": ""
+        },
+        {
+            "pattern": "z",
+            "leftContext": "",
+            "rightContext": "z",
+            "phonetic": ""
+        }
+    ]
+}

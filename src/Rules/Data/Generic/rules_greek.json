@@ -1,0 +1,452 @@
+{
+    "name": "Rules greek",
+    "description": "Converted from rulesgreek.php",
+    "version": "3.15",
+    "source": "rulesgreek.php",
+    "rules": [
+        {
+            "pattern": "αυ",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "af"
+        },
+        {
+            "pattern": "αυ",
+            "leftContext": "",
+            "rightContext": "(κ|π|σ|τ|φ|θ|χ|ψ)",
+            "phonetic": "af"
+        },
+        {
+            "pattern": "αυ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "av"
+        },
+        {
+            "pattern": "ευ",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "ef"
+        },
+        {
+            "pattern": "ευ",
+            "leftContext": "",
+            "rightContext": "(κ|π|σ|τ|φ|θ|χ|ψ)",
+            "phonetic": "ef"
+        },
+        {
+            "pattern": "ευ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ev"
+        },
+        {
+            "pattern": "ηυ",
+            "leftContext": "",
+            "rightContext": "$",
+            "phonetic": "if"
+        },
+        {
+            "pattern": "ηυ",
+            "leftContext": "",
+            "rightContext": "(κ|π|σ|τ|φ|θ|χ|ψ)",
+            "phonetic": "if"
+        },
+        {
+            "pattern": "ηυ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "iv"
+        },
+        {
+            "pattern": "ου",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "u"
+        },
+        {
+            "pattern": "αι",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "aj"
+        },
+        {
+            "pattern": "ει",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ej"
+        },
+        {
+            "pattern": "οι",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "oj"
+        },
+        {
+            "pattern": "ωι",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "oj"
+        },
+        {
+            "pattern": "ηι",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ej"
+        },
+        {
+            "pattern": "υι",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "γγ",
+            "leftContext": "(ε|ι|η|α|ο|ω|υ)",
+            "rightContext": "(ε|ι|η)",
+            "phonetic": "(nj|j)"
+        },
+        {
+            "pattern": "γγ",
+            "leftContext": "",
+            "rightContext": "(ε|ι|η)",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "γγ",
+            "leftContext": "(ε|ι|η|α|ο|ω|υ)",
+            "rightContext": "",
+            "phonetic": "(ng|g)"
+        },
+        {
+            "pattern": "γγ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "g"
+        },
+        {
+            "pattern": "γκ",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "g"
+        },
+        {
+            "pattern": "γκ",
+            "leftContext": "(ε|ι|η|α|ο|ω|υ)",
+            "rightContext": "(ε|ι|η)",
+            "phonetic": "(nj|j)"
+        },
+        {
+            "pattern": "γκ",
+            "leftContext": "",
+            "rightContext": "(ε|ι|η)",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "γκ",
+            "leftContext": "(ε|ι|η|α|ο|ω|υ)",
+            "rightContext": "",
+            "phonetic": "(ng|g)"
+        },
+        {
+            "pattern": "γκ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "g"
+        },
+        {
+            "pattern": "γι",
+            "leftContext": "",
+            "rightContext": "(α|ο|ω|υ)",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "γι",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(gi|i)"
+        },
+        {
+            "pattern": "γε",
+            "leftContext": "",
+            "rightContext": "(α|ο|ω|υ)",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "γε",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(ge|je)"
+        },
+        {
+            "pattern": "κζ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "gz"
+        },
+        {
+            "pattern": "τζ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "dz"
+        },
+        {
+            "pattern": "σ",
+            "leftContext": "",
+            "rightContext": "(β|γ|δ|μ|ν|ρ)",
+            "phonetic": "z"
+        },
+        {
+            "pattern": "μβ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(mb|b)"
+        },
+        {
+            "pattern": "μπ",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "b"
+        },
+        {
+            "pattern": "μπ",
+            "leftContext": "(ε|ι|η|α|ο|ω|υ)",
+            "rightContext": "",
+            "phonetic": "mb"
+        },
+        {
+            "pattern": "μπ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "b"
+        },
+        {
+            "pattern": "ντ",
+            "leftContext": "^",
+            "rightContext": "",
+            "phonetic": "d"
+        },
+        {
+            "pattern": "ντ",
+            "leftContext": "(ε|ι|η|α|ο|ω|υ)",
+            "rightContext": "",
+            "phonetic": "(nd|nt)"
+        },
+        {
+            "pattern": "ντ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(nt|d)"
+        },
+        {
+            "pattern": "ά",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "a"
+        },
+        {
+            "pattern": "έ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "e"
+        },
+        {
+            "pattern": "ή",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(i|e)"
+        },
+        {
+            "pattern": "ί",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "ό",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "o"
+        },
+        {
+            "pattern": "ύ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Q|i|u)"
+        },
+        {
+            "pattern": "ώ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "o"
+        },
+        {
+            "pattern": "ΰ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Q|i|u)"
+        },
+        {
+            "pattern": "ϋ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Q|i|u)"
+        },
+        {
+            "pattern": "ϊ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "j"
+        },
+        {
+            "pattern": "α",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "a"
+        },
+        {
+            "pattern": "β",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(v|b)"
+        },
+        {
+            "pattern": "γ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "g"
+        },
+        {
+            "pattern": "δ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "d"
+        },
+        {
+            "pattern": "ε",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "e"
+        },
+        {
+            "pattern": "ζ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "z"
+        },
+        {
+            "pattern": "η",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(i|e)"
+        },
+        {
+            "pattern": "ι",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "i"
+        },
+        {
+            "pattern": "κ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "k"
+        },
+        {
+            "pattern": "λ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "l"
+        },
+        {
+            "pattern": "μ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "m"
+        },
+        {
+            "pattern": "ν",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "n"
+        },
+        {
+            "pattern": "ξ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ks"
+        },
+        {
+            "pattern": "ο",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "o"
+        },
+        {
+            "pattern": "π",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "p"
+        },
+        {
+            "pattern": "ρ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "r"
+        },
+        {
+            "pattern": "σ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "ς",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "s"
+        },
+        {
+            "pattern": "τ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "t"
+        },
+        {
+            "pattern": "υ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "(Q|i|u)"
+        },
+        {
+            "pattern": "φ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "f"
+        },
+        {
+            "pattern": "θ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "t"
+        },
+        {
+            "pattern": "χ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "x"
+        },
+        {
+            "pattern": "ψ",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "ps"
+        },
+        {
+            "pattern": "ω",
+            "leftContext": "",
+            "rightContext": "",
+            "phonetic": "o"
+        }
+    ]
+}

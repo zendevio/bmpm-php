@@ -1,0 +1,368 @@
+{
+    "name": "Language rules",
+    "description": "Converted from lang.php",
+    "version": "3.15",
+    "source": "lang.php",
+    "rules": [
+        {
+            "pattern": "\/eau\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/ou\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/gni\/",
+            "languages": 10,
+            "accept": true
+        },
+        {
+            "pattern": "\/tx\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/tj\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/gy\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/guy\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/sh\/",
+            "languages": 48,
+            "accept": true
+        },
+        {
+            "pattern": "\/lh\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/nh\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/ny\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/gue\/",
+            "languages": 34,
+            "accept": true
+        },
+        {
+            "pattern": "\/gui\/",
+            "languages": 34,
+            "accept": true
+        },
+        {
+            "pattern": "\/gia\/",
+            "languages": 8,
+            "accept": true
+        },
+        {
+            "pattern": "\/gie\/",
+            "languages": 8,
+            "accept": true
+        },
+        {
+            "pattern": "\/gio\/",
+            "languages": 8,
+            "accept": true
+        },
+        {
+            "pattern": "\/giu\/",
+            "languages": 8,
+            "accept": true
+        },
+        {
+            "pattern": "\/ñ\/",
+            "languages": 32,
+            "accept": true
+        },
+        {
+            "pattern": "\/â\/",
+            "languages": 18,
+            "accept": true
+        },
+        {
+            "pattern": "\/á\/",
+            "languages": 48,
+            "accept": true
+        },
+        {
+            "pattern": "\/à\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/ã\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/ê\/",
+            "languages": 18,
+            "accept": true
+        },
+        {
+            "pattern": "\/í\/",
+            "languages": 48,
+            "accept": true
+        },
+        {
+            "pattern": "\/î\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/ô\/",
+            "languages": 18,
+            "accept": true
+        },
+        {
+            "pattern": "\/õ\/",
+            "languages": 16,
+            "accept": true
+        },
+        {
+            "pattern": "\/ò\/",
+            "languages": 40,
+            "accept": true
+        },
+        {
+            "pattern": "\/ú\/",
+            "languages": 48,
+            "accept": true
+        },
+        {
+            "pattern": "\/ù\/",
+            "languages": 2,
+            "accept": true
+        },
+        {
+            "pattern": "\/ü\/",
+            "languages": 48,
+            "accept": true
+        },
+        {
+            "pattern": "\/א\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ב\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ג\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ד\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ה\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ו\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ז\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ח\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ט\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/י\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/כ\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ל\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/מ\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/נ\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ס\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ע\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/פ\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/צ\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ק\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ר\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ש\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/ת\/",
+            "languages": 4,
+            "accept": true
+        },
+        {
+            "pattern": "\/a\/",
+            "languages": 4,
+            "accept": false
+        },
+        {
+            "pattern": "\/o\/",
+            "languages": 4,
+            "accept": false
+        },
+        {
+            "pattern": "\/e\/",
+            "languages": 4,
+            "accept": false
+        },
+        {
+            "pattern": "\/i\/",
+            "languages": 4,
+            "accept": false
+        },
+        {
+            "pattern": "\/y\/",
+            "languages": 4,
+            "accept": false
+        },
+        {
+            "pattern": "\/u\/",
+            "languages": 4,
+            "accept": false
+        },
+        {
+            "pattern": "\/kh\/",
+            "languages": 32,
+            "accept": false
+        },
+        {
+            "pattern": "\/gua\/",
+            "languages": 8,
+            "accept": false
+        },
+        {
+            "pattern": "\/guo\/",
+            "languages": 8,
+            "accept": false
+        },
+        {
+            "pattern": "\/ç\/",
+            "languages": 8,
+            "accept": false
+        },
+        {
+            "pattern": "\/cha\/",
+            "languages": 8,
+            "accept": false
+        },
+        {
+            "pattern": "\/cho\/",
+            "languages": 8,
+            "accept": false
+        },
+        {
+            "pattern": "\/chu\/",
+            "languages": 8,
+            "accept": false
+        },
+        {
+            "pattern": "\/j\/",
+            "languages": 8,
+            "accept": false
+        },
+        {
+            "pattern": "\/dj\/",
+            "languages": 32,
+            "accept": false
+        },
+        {
+            "pattern": "\/sce\/",
+            "languages": 2,
+            "accept": false
+        },
+        {
+            "pattern": "\/sci\/",
+            "languages": 2,
+            "accept": false
+        },
+        {
+            "pattern": "\/ó\/",
+            "languages": 2,
+            "accept": false
+        },
+        {
+            "pattern": "\/è\/",
+            "languages": 16,
+            "accept": false
+        }
+    ]
+}
