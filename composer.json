@@ -1,5 +1,5 @@
 {
-  "name": "zendevio/bmpm-php",
+  "name": "zendevio/bmpm",
   "description": "Modern PHP 8.4+ implementation of the Beider-Morse Phonetic Matching (BMPM) algorithm for multilingual name matching",
   "type": "library",
   "license": "GPL-3.0-or-later",
