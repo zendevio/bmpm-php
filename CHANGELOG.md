@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2025-12-14
+
+### Fixed
+
+- Prevent PHP warnings when optional rule files don't exist (e.g., `exact_czech.json`, `approx_hungarian.json`)
+- Replace `@file_get_contents()` with `file_exists()` check to avoid warnings that testing frameworks capture
+
 ## [1.0.0] - 2025-12-13
 
 ### Added
@@ -69,5 +76,6 @@ Original algorithm documentation: https://stevemorse.org/phoneticinfo.htm
 
 This PHP implementation is a modern rewrite based on the BMPM 3.15 PHP source code.
 
-[Unreleased]: https://github.com/zendevio/bmpm-php/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/zendevio/bmpm-php/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/zendevio/bmpm-php/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/zendevio/bmpm-php/releases/tag/v1.0.0

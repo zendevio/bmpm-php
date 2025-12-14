@@ -160,10 +160,15 @@ final class RuleLoader implements RuleLoaderInterface
      */
     private function loadRuleSetFromFile(string $path): RuleSet
     {
-        $content = @file_get_contents($path);
+        // Check file existence first to avoid PHP warnings
+        // that testing frameworks capture even with @ suppression
+        if (!file_exists($path)) {
+            return new RuleSet();
+        }
+
+        $content = file_get_contents($path);
         if ($content === false) {
-            // Return empty rule set if file doesn't exist
-            // This handles optional rule files gracefully
+            // Return empty rule set if file can't be read
             return new RuleSet();
         }
 
